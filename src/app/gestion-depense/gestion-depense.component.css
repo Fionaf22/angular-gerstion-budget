@@ -1,0 +1,100 @@
+@media all {
+
+  .ArticleMainpage {width: 65%;}
+  .AsideHomepage {width: 25%;}
+  .articleHomepage {background-color: whitesmoke;border : none lightblue 4px;margin: 3%;padding: 1%;overflow: hidden;}
+  aside { background-color: whitesmoke;margin-top: 7%;margin-bottom: 7%; border: solid 8px slategrey;padding: 1%;}
+
+}
+@media all and (max-width: 1300px) {
+
+  .ArticleMainpage {width: 65%;}
+  .AsideHomepage {width: 25%;}
+  .articleHomepage {background-color: whitesmoke;border : none lightblue 6px;margin: 3%;padding: 1%;overflow: hidden;}
+  aside { background-color: whitesmoke;margin-top: 15%;margin-bottom: 15%; border: solid 8px lightslategrey;padding: 1%;}
+
+
+}
+@media all and (max-width: 800px) {
+
+  .ArticleMainpage {width: 100%; height: 30%; }
+  .AsideHomepage {width: 100%; height: 30%;}
+  .articleHomepage {background-color: whitesmoke;border : none lightblue 8px;margin: 3%;padding: 1%;overflow: hidden;}
+aside { background-color: whitesmoke;border: inset 8px lightblue;padding: 1%;}
+}
+
+
+footer
+{
+  background-color: white;
+  width: 100%;
+  position:fixed;
+  bottom: 0mm;
+}
+
+img{
+  width: 100%;
+}
+
+td,th {
+  border: 1px solid rgba(0, 0, 255, .2);
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  table-layout: auto;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table{
+  margin: auto;
+  table-layout: fixed;
+  width: 80%;
+}
+
+fieldset{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  max-width: 700px;
+  min-height: 300px;
+  background-color: #fff5f2;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction : column;
+  height: 40%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+legend {
+  background-color: rgba(127, 59, 34, 0.745);
+  color: #fff;
+  padding: 3px 6px;
+  font: italic 1.5em "Fira Sans", serif;
+
+}
+
+.list_depense a{
+
+  background-color: rgba(127, 59, 34, 0.745);
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+  margin: auto;
+  padding: 3px 6px;
+  font: italic 1.5em "Fira Sans", serif;
+}
+
+body{
+  background: #fce5dc;
+  background: -moz-radial-gradient(top,   #ffccb8 100%, #ffded1 50%, #fce5dc 0%);
+  background: -webkit-radial-gradient(top,  #ffccb8 100%, #ffded1 50%, #fce5dc 0%);
+  background: linear-gradient(to bottom,  #ffccb8 100%, #ffded1 50%, #fce5dc 0%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce5dc', endColorstr='#ffccb8',GradientType=1 );
+}
