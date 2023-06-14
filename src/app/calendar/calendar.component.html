@@ -1,0 +1,18 @@
+<p>calendar works!</p>
+<h1>{{itema.activity}}</h1>
+<p *ngFor="let item4 of itemList">{{item4.date}} {{item4.activity}}</p>-
+<p>{{ inputItem.activity }}</p>
+<p [style]="black">hello you</p>
+<p [attr.style]="black">hello you</p>
+<p>{{gameResult}}</p>
+<p>{{gameResult}}</p>
+<h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+    <li><a routerLink="/calendar" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a></li>
+    <li><a routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">Second Component</a></li>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>
